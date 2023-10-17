@@ -64,7 +64,7 @@ namespace Rest_API.Controllers
         }
 
         [HttpPost("dog")]
-        public async Task<ActionResult<List<Character>>> AddCharacter(Character newcharacter)
+        public async Task<ActionResult<List<Character>>> AddDogs(Character newcharacter)
         {
             var characters = await _characterService.GetCharacterList();
 
