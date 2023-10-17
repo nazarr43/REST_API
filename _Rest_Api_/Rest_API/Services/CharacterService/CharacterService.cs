@@ -9,7 +9,7 @@ namespace Rest_API.Services.CharacterService
             new Character(),
             new Character {Name = "henry", Color = "cl", Tail_length = 4, Weight = 66}
         };
-        public async Task<List<Character>> AddCharacters(Character newcharacter)
+        public async Task<List<Character>> AddDogs(Character newcharacter)
         {
             characters.Add(newcharacter);
             return characters;

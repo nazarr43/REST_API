@@ -81,7 +81,7 @@ namespace Rest_API.Controllers
             {
                 return BadRequest("Invalid JSON is passed in the request body.");
             }
-            return Ok(await _characterService.AddCharacters(newcharacter));
+            return Ok(await _characterService.AddDogs(newcharacter));
         }
     }
 }
